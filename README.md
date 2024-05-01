@@ -19,7 +19,9 @@ wrapper, filter, embedded, and hybrid methods
         1. forward feature selection
         2. Backward feature Elimination
         3. Exhaustive feature selection: a brute-force evaluation of each feature subset (most robust)
-        4. Recursive Feature Elimination (external estimator that assigns weights to feature) 
+        4. Genetic algorithm
+        5. Stochastic selection
+        6. Recursive Feature Elimination (external estimator that assigns weights to feature) 
             1. the least important features are pruned from the current set of features and a recursively smaller and smaller set is obtained till the desired number of features remain in the set
 2. Filter
     1. Apply Statistical measures to evaluate the set of attributes focusing on the intrinsic properties of the features
