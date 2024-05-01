@@ -4,8 +4,8 @@ This repository contains Python implementation of various feature selection tech
 ## Why Feature Selection?
 - Data Understanding
 - Reduced storage requirement as data size is reduced
-- reduced computational process time
-- makes learning easier
+- Reduced computational process time
+- Makes learning easier
   
 Search space 2^w w= number of features
 
@@ -16,7 +16,7 @@ wrapper, filter, embedded, and hybrid methods
     2. More accurate than filter methods 
     3. Dependent on the learning algorithm
     4. Examples: 
-        1. forward feature selection
+        1. Forward feature selection
         2. Backward feature Elimination
         3. Exhaustive feature selection: a brute-force evaluation of each feature subset (most robust)
         4. Genetic algorithm
